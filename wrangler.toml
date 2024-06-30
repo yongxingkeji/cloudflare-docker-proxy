@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.ttxs669.dns-dynamic.net", custom_domain = true },
-#   { pattern = "quay.ttxs669.dns-dynamic.net", custom_domain = true },
-#   { pattern = "gcr.ttxs669.dns-dynamic.net", custom_domain = true },
-#   { pattern = "k8s-gcr.ttxs669.dns-dynamic.net", custom_domain = true },
-#   { pattern = "k8s.ttxs669.dns-dynamic.net", custom_domain = true },
-#   { pattern = "ghcr.ttxs669.dns-dynamic.net", custom_domain = true },
-#   { pattern = "cloudsmith.ttxs669.dns-dynamic.net", custom_domain = true },
+#   { pattern = "docker.zh.cloudns.ch", custom_domain = true },
+#   { pattern = "quay.zh.cloudns.ch", custom_domain = true },
+#   { pattern = "gcr.zh.cloudns.ch", custom_domain = true },
+#   { pattern = "k8s-gcr.zh.cloudns.ch", custom_domain = true },
+#   { pattern = "k8s.zh.cloudns.ch", custom_domain = true },
+#   { pattern = "ghcr.zh.cloudns.ch", custom_domain = true },
+#   { pattern = "cloudsmith.zh.cloudns.ch", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.ttxs669.dns-dynamic.net", custom_domain = true }
+# route = { pattern = "docker-staging.zh.cloudns.ch", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
