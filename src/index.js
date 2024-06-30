@@ -44,7 +44,6 @@ async function handleRequest(request) {
       }
     );
   }
-  
  
 // return tips.html
 if (url.pathname === "/") {
