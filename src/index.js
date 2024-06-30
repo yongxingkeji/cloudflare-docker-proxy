@@ -8,14 +8,14 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.ttxs669.dns-dynamic.net": dockerHub,
-  "quay.ttxs669.dns-dynamic.net": "https://quay.io",
-  "gcr.ttxs669.dns-dynamic.net": "https://gcr.io",
-  "k8s-gcr.ttxs669.dns-dynamic.net": "https://k8s.gcr.io",
-  "k8s.ttxs669.dns-dynamic.net": "https://registry.k8s.io",
-  "ghcr.ttxs669.dns-dynamic.net": "https://ghcr.io",
-  "cloudsmith.ttxs669.dns-dynamic.net": "https://docker.cloudsmith.io",
-  "ecr.ttxs669.dns-dynamic.net": "https://public.ecr.aws",
+  "docker.zh.cloudns.ch": dockerHub,
+  "quay.zh.cloudns.ch": "https://quay.io",
+  "gcr.zh.cloudns.ch": "https://gcr.io",
+  "k8s-gcr.zh.cloudns.ch": "https://k8s.gcr.io",
+  "k8s.zh.cloudns.ch": "https://registry.k8s.io",
+  "ghcr.zh.cloudns.ch": "https://ghcr.io",
+  "cloudsmith.zh.cloudns.ch": "https://docker.cloudsmith.io",
+  "ecr.zh.cloudns.ch": "https://public.ecr.aws",
 
   // staging
   "docker-staging.libcuda.so": dockerHub,
